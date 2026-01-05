@@ -233,7 +233,7 @@ ul {
 }
 
 
-#orderlist {
+#orderList {
     list-style: none;
     padding: 0;
 }
@@ -399,3 +399,4 @@ ul {
 #logoutBtn:hover {
     background: #ffe0b2;
 }
+
