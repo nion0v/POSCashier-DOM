@@ -6,7 +6,7 @@ const paymentSelect = document.getElementById("paymentMethod");
 const cashSection = document.getElementById("cashSection");
 const cashPaidInput = document.getElementById("cashPaid");
 const changeAmount = document.getElementById("changeAmount");
-/*const cashInput = document.getElementById("cashPaid");*/
+const cashInput = document.getElementById("cashPaid");
 const changeText = document.getElementById("changeAmount");
 
 let currentTotal = 0;
@@ -209,4 +209,5 @@ window.closePrint = function () {
     }
 });
 });
+
 
