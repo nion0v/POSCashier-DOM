@@ -6,7 +6,7 @@ const paymentSelect = document.getElementById("paymentMethod");
 const cashSection = document.getElementById("cashSection");
 const cashPaidInput = document.getElementById("cashPaid");
 const changeAmount = document.getElementById("changeAmount");
-const cashInput = document.getElementById("cashPaid");
+/*const cashInput = document.getElementById("cashPaid");*/
 const changeText = document.getElementById("changeAmount");
 
 let currentTotal = 0;
@@ -201,11 +201,12 @@ document.getElementById("paybtn").addEventListener("click", () => {
 window.closePrint = function () {
     document.getElementById("printmodal").classList.add("hidden");
     };
-});
-
-document.getElementById("logoutBtn").addEventListener("click", () => {
+    
+    document.getElementById("logoutBtn").addEventListener("click", () => {
     if (confirm("Log out from cashier system?")) {
         location.reload();
         // or: window.location.href = "login.html";
     }
 });
+});
+
