@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe</title>
+    <meta name="author" content="Nova Christiana - 1462500003">
+    <link rel="stylesheet" href="kasir.css">
+</head>
+
+<body>
+    <header class="restoname">
+        <div class="title-row">
+            <img class="logoresto" src="logo.png" alt="logo">
+            <h1>Cafe Paris<br></h1>
+        </div>
+        <h4 class="nama-nbi">by Nova Christiana - 1462500003</h4>
+    </header>
+
+<div class="container">
+     
+    <!-- KIRI: MENU -->
+    <div class="menu">
+        <h2 class="box-food">Main Courses</h2>
+
+        <div class="items">
+            <div class="item" data-name="Tartine" data-price="70000">
+                <img src="tartine.jpg" alt="tartine">
+                Tartine<br>70K IDR
+            </div>            
+            <div class="item" data-name="Sandwich Croissant" data-price="77000">
+                <img src="croissant sandwich.jpg" alt="croissant sandwich">
+                Sandwich Croissant<br>77K IDR
+            </div>
+            <div class="item" data-name="Soupe de Poisson" data-price="100000">
+                <img src="soup1.jpg" alt="Soupe de Poisson">
+                Soupe de Poisson<br>100K IDR
+            </div>
+            <div class="item" data-name="Salade de Chevre Chaud" data-price="75000">
+                <img src="salad1.jpg" alt="Salade de Chèvre Chaud">
+                Salade de Chèvre Chaud<br>75K IDR
+            </div>
+            <div class="item" data-name="Bourguignon" data-price="108000">
+                <img src="bourguignon.jpg" alt="Bourguignon">
+                Bourguignon<br>108K IDR
+            </div>
+            <div class="item" data-name="Steak au Poivre" data-price="100000">
+                <img src="steak1.jpg" alt="Steak au Poivre">
+                Steak au Poivre<br>100K IDR
+            </div>
+            <div class="item" data-name="French Onion" data-price="90000">
+                <img src="pasta1.jpg" alt="French Onion">
+                French Onion Pasta<br>90K IDR
+            </div>
+            <div class="item" data-name="Ratatouille" data-price="90000">
+                <img src="Ratatouille-1.png" alt="Ratatouille">
+                Ratatouille<br>90K IDR
+            </div>
+            <div class="item" data-name="Coq au Vin" data-price="110000">
+                <img src="Coq-au-Vin-Recipe-3.jpg" alt="Coq-au-Vin-Recipe-3">
+                Coq au Vin<br>110K IDR
+            </div>
+        </div>
+
+        <h2 class="box-drink">Drinks</h2>
+        <div class="items">
+            <div class="item" data-name="Americano" data-price="40000">
+                <img src="kopi3.jpg" alt="Ice Tea">
+                Americano<br>40K IDR
+            </div>
+            <div class="item" data-name="Butterscotch Coffee" data-price="70000">
+                <img src="kopi1.jpg" alt="Butterscotch Coffee">
+                Butterscotch Coffee<br>70K IDR
+            </div>
+            <div class="item" data-name="Cafe Au Lait" data-price="60000">
+                <img src="kopi2.jpg" alt="Cafe Au Lait">
+                Cafe Au Lait<br>60K IDR
+            </div>
+            <div class="item" data-name="Lemon Tea" data-price="60000">
+                <img src="icetea.jpg" alt="Lemon Tea">
+                H/I Lemon Tea<br>60K IDR
+            </div>
+            <div class="item" data-name="Punch" data-price="70000">
+                <img src="punch.jpg" alt="Punch">
+                Punch berry<br>70K IDR
+            </div>
+            <div class="item" data-name="orange juice" data-price="65000">
+                <img src="orangejuice.jpg" alt="Orange Juice">
+                Orange Juice<br>65K IDR
+            </div>
+            <div class="item" data-name="fiji" data-price="25000">
+                <img src="fiji.jpg" alt="Fiji">
+                Fiji Water<br>25K IDR
+            </div>
+            <div class="item" data-name="Cola" data-price="25000">
+                <img src="cola.jpg" alt="Cola">
+                Soda<br>25K IDR
+            </div>
+            <div class="item" data-name="Beer" data-price="40000">
+                <img src="beer.png" alt="Beer">
+                La Biere<br>40K IDR
+            </div>
+        </div>
+
+        <h2 class="box-appetizer">Entree/Appetizer</h2>
+        <div class="items">
+            <div class="item" data-name="Creme Brulee" data-price="70000">
+                <img src="cremebrulee.jpg" alt="Creme Brulee">
+                Creme Brulee<br>70K IDR
+            </div>
+            <div class="item" data-name="French Fries" data-price="27000">
+                <img src="fries.jpg" alt="French Fries">
+                French Fries<br>27K IDR
+            </div>
+            <div class="item" data-name="Strawberry Panacotta" data-price="37000">
+                <img src="pudding.jpg" alt="Strawberry Panacotta">
+                Strawberry Panacotta<br>37K IDR
+            </div>
+            <div class="item" data-name="Pain au Chocolate" data-price="65000">
+                <img src="pastry1.jpg" alt="Pain au Chocolate">
+                Pain au Chocolate<br>65K IDR
+            </div>
+            <div class="item" data-name="Maccarrons" data-price="80000">
+                <img src="mcarons.jpg" alt="Maccarons">
+                Maccarons<br>80K IDR
+            </div>
+            <div class="item" data-name="pissaladiere" data-price="100000">
+                <img src="pissaladiere1.jpg" alt="pissaladiere">
+                pissaladiere<br>100K IDR
+            </div>
+        </div>
+    </div>
+
+    <!-- KANAN: PAYMENT -->
+    <div class="payment">
+        <h2 class="ordersummary">Order Summary</h2>
+        <p>Bill No: <span id="billNo">1</span></p>  <!--span tetap di samping tidak buat line baru-->
+        <div class="datetime">
+            <span id="datetime"></span>
+        </div>
+        <div class="option">
+            <label>
+                <input type="radio" name="service" value="dine-in" checked>
+                Dine In
+            </label>
+            <label>
+                <input type="radio" name="service" value="takehome">
+                Take Home (+5K IDR)
+            </label>
+        </div>
+        <div class="cashierman">
+            <label for="cashier">Cashier : </label>
+            <select id="cashier">
+                <option value="">Select cashier --</option>
+                <option value="susi">Susi</option>
+                <option value="doni">Doni</option>
+                <option value="Rahmat">Rahmat</option>
+            </select>
+        </div>
+        <div class="table">
+            <label for="tableno">Table Number: </label>
+            <input type="text" id="tableno" name="fname">
+        </div>
+        <h4 class="h4-ordereditems">Ordered items : </h4>
+        <ul id="orderList"></ul>
+        <div class="option">
+            <label for="paymentMethod">Payment Method</label>
+            <select id="paymentMethod">
+                <option value="">-- Select payment --</option>
+                <option value="cash">Cash</option>
+                <option value="card">Card</option>
+                <option value="ewallet">E-Wallet</option>
+            </select>
+        </div>
+        <div id="cashSection" class="hidden">
+            <label>Cash Paid (Rp)</label>
+            <input type="number" id="cashPaid" placeholder="Enter cash amount">
+            <p>Change: Rp<span id="changeAmount">0</span></p>
+        </div>
+        <div id="barcode" class="hidden">
+            <p>Scan QR Code</p>
+            <div class="qr">[ QR CODE ]</div>
+        </div>
+
+        <hr> 
+
+        <div class="summary-row">
+            <span>Subtotal</span>
+            <span>Rp <span id="subtotal">0</span></span>
+        </div>
+        <div class="summary-row">
+            <span>VAT (11%)</span>
+            <span>Rp <span id="vat">0</span></span>
+        </div>
+        <div class="summary-row p-disc">
+            <span>Discount</span>
+            <span>Rp <span id="discount">0</span></span>
+        </div>
+        <div class="summary-row total-row">
+            <strong>Total</strong>
+            <strong>Rp <span id="total">0</span></strong>
+        </div>
+
+        <button id="paybtn">PAY</button>
+        <button id="clearAll">Clear All</button>
+        <button id="nextBill">Next Order</button>
+    </div>
+
+</div>
+    <!--LOG OUT BUTTON-->
+        <div class="menu-footer">
+            <button id="logoutBtn">Log Out</button>
+        </div>
+
+<!--POP UP RECEIPT-->
+<div id="printmodal" class="modal hidden">
+    <div class="modal-content" id="printArea">
+        <p>Bill No: #00<span id="printBillNo"></span></p>
+        <img src="logo.png" class="logoresto-bill" alt="logo"><br>
+        <h3 class="alamat">CAFE PARIS<br>============ Billing ============</h3>
+        <h4 class="alamat">Jln. Jalak No.9, Bali</h4>
+
+        <p>Date & Time : <span id="printDate"></span></p>
+        
+        <p>Table No : <span id="printTableNo"></span></p>
+        <p>Service : <span id="printService"></span></p>
+        <p>Cashier : <span id="printCashier"></span></p>
+        <p>Payment : <span id="printPayment"></span></p>
+
+        <hr>
+        <p>Ordered items : </p>
+        <ul id="printOrderList"></ul>
+        <hr>
+
+        <div class="receipt-row">
+            <span>Subtotal </span>
+            <span class="receipt-right">Rp<span id="printSubtotal"></span></span>
+        </div>    
+        <div class="receipt-row">
+            <span>Discount </span>
+            <span class="receipt-right">-Rp<span id="printdiscount"></span></span>
+        </div>
+        <div class="receipt-row">
+            <span>VAT 11% </span>
+            <span class="receipt-right">Rp<span id="printVAT"></span></span>
+        </div>
+        <div class="receipt-row total-row">
+            <strong>Total </strong>
+            <strong class="receipt-right">Rp<span id="printTotal"></span></strong>
+        </div>
+        <div class="receipt-row cash-only hidden">
+            <span>Cash Paid</span>
+            <span class="receipt-right">Rp<span id="printCashPaid"></span></span>
+        </div>
+        <div class="receipt-row cash-only hidden">
+            <span>Change</span>
+            <span class="receipt-right">Rp<span id="printChange"></span></span>
+        </div>
+        <div class="button-group">
+            <button onclick="window.print()">PRINT</button>
+            <button onclick="closePrint()">CLOSE</button>
+        </div>    
+  </div>
+
+</div>
+
+<script src="kasir.js"></script>
+
+</body>
+</html>
